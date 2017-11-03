@@ -6,8 +6,8 @@
 def addAll(inList):
     return sum(inList)
 def diffAll(inList):
-    return reduce(inList)
-def multiplyAll(inList):
+    return reduce(lambda x,y: x-y,inList) 
+def multiplyAll(lambda x,y: x*y,inList):
     return reduce(inList)
 def greatestAll(inList):
     return max(inList)
